@@ -42,5 +42,5 @@ if __name__ == "__main__":
     user_msg = input("You: ").strip()
     client = BedrockClient("us-east-1")
     msgs = [{"role": "user", "content": [{"text": user_msg}]}]
-    reply = client.converse("meta.llama3-8b-instruct-v1:0", msgs)
+    reply = client.converse("meta.llama3-8b-instruct-v1:0", msgs) # Optionally replace with model of choice
     print("Assistant:", reply)
