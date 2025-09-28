@@ -6,8 +6,8 @@ from typing import List, Dict, Any
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-ACCESS_KEY_ID = "AKIARJ5AUHRXW5V4A4MP"
-SECRET_ACCESS_KEY = "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"
+ACCESS_KEY_ID = "AKIARJ5AUHRXUI7NVXUO"
+SECRET_ACCESS_KEY = "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"
 SESSION_TOKEN = None
 
 class BedrockClient:
